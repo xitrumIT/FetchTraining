@@ -23,3 +23,4 @@ console.log("total sum: ", totalSum);
 console.log("total subtract: ", totalSubtract);
 console.log("total multi: ", totalMulti);
 console.log("total divi: ", totalDivi);
+console.log("Le Cong Nam submitted")
