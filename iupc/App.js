@@ -1,25 +1,13 @@
 import React, { useState } from 'react';
 
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   TouchableOpacity,
   View,
-  Button,
-
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+
 
 
 TouchableOpacity.defaultProps = { activeOpacity: 0.8 };
@@ -84,6 +72,8 @@ const Flex = () => {
     </View>
   );
 };
+
+
 const styles = StyleSheet.create({
   container: {
     padding: 10,
@@ -108,17 +98,6 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign: 'right',
   }
-
-  
-
 });
-
-
-// const styles2 = StyleSheet.create({
-//   container: {
-//     flex: 2,
-//     padding: 40,
-//   },
-// });
 
 export default Flex;
